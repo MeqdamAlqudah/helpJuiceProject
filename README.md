@@ -7,7 +7,7 @@
 ## Built With
 - ruby on rails
 ## Video demo
--[Video demo](https://www.loom.com/share/3b92e8a763db4d5fbacaaa162a8bd09d)
+-[Video demo](https://www.loom.com/share/26c0418d82fb439fbd11ff1c7eca741e)
 ## Deployed version
 
   [link](https://intense-badlands-65200.herokuapp.com/)
@@ -17,9 +17,6 @@
 Chrome or any explorer
 ### USAGE
 This is a ruby on rails base app which let the users search for some articles in real time 
-
-## Get started 
-  if you just want to test the app you can use Johndo as a username and (12345654321) as a password
 ## Authors
 
 👤 **Meqdam Al-qudah**
