@@ -1,6 +1,4 @@
-import consumer from "./consumer"
-
-consumer.subscriptions.create("SearchChannel", {
+App.searches = App.cable.subscriptions.create("SearchChannel", {
   connected() {
     // Called when the subscription is ready for use on the server
   },
