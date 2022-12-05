@@ -71,6 +71,7 @@ GEM
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
     ast (2.4.2)
+<<<<<<< HEAD
     autoprefixer-rails (10.4.7.0)
       execjs (~> 2)
     bindex (0.8.1)
@@ -80,6 +81,13 @@ GEM
       autoprefixer-rails (>= 5.2.1)
       sassc (>= 2.0.0)
     builder (3.2.4)
+=======
+    bindex (0.8.1)
+    bootsnap (1.13.0)
+      msgpack (~> 1.2)
+    builder (3.2.4)
+    cancancan (3.4.0)
+>>>>>>> 751911f96d9dbdc962fecbf486de76502dd23317
     capybara (3.38.0)
       addressable
       matrix
@@ -89,12 +97,17 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (>= 1.5, < 3.0)
       xpath (~> 3.2)
+<<<<<<< HEAD
+=======
+    childprocess (4.1.0)
+>>>>>>> 751911f96d9dbdc962fecbf486de76502dd23317
     concurrent-ruby (1.1.10)
     crass (1.0.6)
     database_cleaner-active_record (2.0.1)
       activerecord (>= 5.a)
       database_cleaner-core (~> 2.0.0)
     database_cleaner-core (2.0.1)
+<<<<<<< HEAD
     debug (1.7.0)
       irb (>= 1.5.0)
       reline (>= 0.3.1)
@@ -103,29 +116,46 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     erubi (1.11.0)
     execjs (2.8.1)
+=======
+    debug (1.6.3)
+      irb (>= 1.3.6)
+      reline (>= 0.3.1)
+    diff-lcs (1.5.0)
+    erubi (1.11.0)
+>>>>>>> 751911f96d9dbdc962fecbf486de76502dd23317
     factory_bot (6.2.1)
       activesupport (>= 5.0.0)
     factory_bot_rails (6.2.0)
       factory_bot (~> 6.2.0)
       railties (>= 5.0.0)
+<<<<<<< HEAD
     ffi (1.15.5)
     globalid (1.0.0)
       activesupport (>= 5.0)
     http-accept (1.7.0)
     http-cookie (1.0.5)
       domain_name (~> 0.5)
+=======
+    globalid (1.0.0)
+      activesupport (>= 5.0)
+>>>>>>> 751911f96d9dbdc962fecbf486de76502dd23317
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     importmap-rails (1.1.5)
       actionpack (>= 6.0.0)
       railties (>= 6.0.0)
     io-console (0.5.11)
+<<<<<<< HEAD
     irb (1.5.1)
+=======
+    irb (1.4.2)
+>>>>>>> 751911f96d9dbdc962fecbf486de76502dd23317
       reline (>= 0.3.0)
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
     json (2.6.2)
+<<<<<<< HEAD
     loofah (2.19.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -142,6 +172,28 @@ GEM
     mime-types-data (3.2022.0105)
     mini_mime (1.1.2)
     minitest (5.16.3)
+=======
+    language_server-protocol (3.17.0.1)
+    loofah (2.19.0)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.5.9)
+    mail (2.7.1)
+      mini_mime (>= 0.1.1)
+    marcel (1.0.2)
+    matrix (0.4.2)
+    method_source (1.0.0)
+    mini_mime (1.1.2)
+    minitest (5.16.3)
+    monetize (1.12.0)
+      money (~> 6.12)
+    money (6.16.0)
+      i18n (>= 0.6.4, <= 2)
+    money-rails (1.15.0)
+      activesupport (>= 3.0)
+      monetize (~> 1.9)
+      money (~> 6.13)
+      railties (>= 3.0)
+>>>>>>> 751911f96d9dbdc962fecbf486de76502dd23317
     msgpack (1.6.0)
     net-imap (0.3.1)
       net-protocol
@@ -151,19 +203,32 @@ GEM
       timeout
     net-smtp (0.3.3)
       net-protocol
+<<<<<<< HEAD
     netrc (0.11.0)
+=======
+>>>>>>> 751911f96d9dbdc962fecbf486de76502dd23317
     nio4r (2.5.8)
     nokogiri (1.13.9-x86_64-linux)
       racc (~> 1.4)
     parallel (1.22.1)
     parser (3.1.2.1)
       ast (~> 2.4.1)
+<<<<<<< HEAD
     pg (1.4.5)
+=======
+    pg (1.4.4)
+    prettier_print (1.0.2)
+>>>>>>> 751911f96d9dbdc962fecbf486de76502dd23317
     public_suffix (5.0.0)
     puma (5.6.5)
       nio4r (~> 2.0)
     racc (1.6.0)
     rack (2.2.4)
+<<<<<<< HEAD
+=======
+    rack-cors (1.1.1)
+      rack (>= 2.0.0)
+>>>>>>> 751911f96d9dbdc962fecbf486de76502dd23317
     rack-test (2.0.2)
       rack (>= 1.3)
     rails (7.0.4)
@@ -180,6 +245,13 @@ GEM
       activesupport (= 7.0.4)
       bundler (>= 1.15.0)
       railties (= 7.0.4)
+<<<<<<< HEAD
+=======
+    rails-controller-testing (1.0.5)
+      actionpack (>= 5.0.1.rc1)
+      actionview (>= 5.0.1.rc1)
+      activesupport (>= 5.0.1.rc1)
+>>>>>>> 751911f96d9dbdc962fecbf486de76502dd23317
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
@@ -195,6 +267,7 @@ GEM
     rainbow (3.1.1)
     rake (13.0.6)
     redis (4.8.0)
+<<<<<<< HEAD
     regexp_parser (2.6.1)
     reline (0.3.1)
       io-console (~> 0.5)
@@ -208,6 +281,12 @@ GEM
       activemodel (>= 3.0)
       activesupport (>= 3.0)
       rspec-mocks (>= 2.99, < 4.0)
+=======
+    regexp_parser (2.6.0)
+    reline (0.3.1)
+      io-console (~> 0.5)
+    rexml (3.2.5)
+>>>>>>> 751911f96d9dbdc962fecbf486de76502dd23317
     rspec-core (3.12.0)
       rspec-support (~> 3.12.0)
     rspec-expectations (3.12.0)
@@ -237,16 +316,31 @@ GEM
       unicode-display_width (>= 1.4.0, < 3.0)
     rubocop-ast (1.23.0)
       parser (>= 3.1.1.0)
+<<<<<<< HEAD
     ruby-progressbar (1.11.0)
     rubyzip (2.3.2)
     sassc (2.4.0)
       ffi (~> 1.9)
     selenium-webdriver (4.7.1)
+=======
+    ruby-lsp (0.3.5)
+      language_server-protocol (~> 3.17.0)
+      sorbet-runtime
+      syntax_tree (>= 4.0.2)
+    ruby-progressbar (1.11.0)
+    rubyzip (2.3.2)
+    selenium-webdriver (4.6.1)
+      childprocess (>= 0.5, < 5.0)
+>>>>>>> 751911f96d9dbdc962fecbf486de76502dd23317
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
     shoulda-matchers (5.2.0)
       activesupport (>= 5.2.0)
+<<<<<<< HEAD
+=======
+    sorbet-runtime (0.5.10539)
+>>>>>>> 751911f96d9dbdc962fecbf486de76502dd23317
     sprockets (4.1.1)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
@@ -254,8 +348,16 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
+<<<<<<< HEAD
     stimulus-rails (1.2.1)
       railties (>= 6.0.0)
+=======
+    sqlite3 (1.5.3-x86_64-linux)
+    stimulus-rails (1.1.1)
+      railties (>= 6.0.0)
+    syntax_tree (4.3.0)
+      prettier_print (>= 1.0.2)
+>>>>>>> 751911f96d9dbdc962fecbf486de76502dd23317
     thor (1.2.1)
     timeout (0.3.0)
     turbo-rails (1.3.2)
@@ -264,9 +366,12 @@ GEM
       railties (>= 6.0.0)
     tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
+<<<<<<< HEAD
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.8.2)
+=======
+>>>>>>> 751911f96d9dbdc962fecbf486de76502dd23317
     unicode-display_width (2.3.0)
     web-console (4.2.0)
       actionview (>= 6.0.0)
@@ -283,21 +388,31 @@ GEM
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
+<<<<<<< HEAD
     zeitwerk (2.6.6)
+=======
+    zeitwerk (2.6.5)
+>>>>>>> 751911f96d9dbdc962fecbf486de76502dd23317
 
 PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+<<<<<<< HEAD
   action-cable-testing
   bootsnap
   bootstrap-sass
+=======
+  bootsnap
+  cancancan
+>>>>>>> 751911f96d9dbdc962fecbf486de76502dd23317
   capybara
   database_cleaner-active_record
   debug
   factory_bot_rails
   importmap-rails
   jbuilder
+<<<<<<< HEAD
   pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.4)
@@ -309,6 +424,22 @@ DEPENDENCIES
   selenium-webdriver
   shoulda-matchers
   sprockets-rails
+=======
+  money-rails
+  pg (~> 1.4, >= 1.4.3)
+  puma (~> 5.0)
+  rack-cors
+  rails (~> 7.0.4)
+  rails-controller-testing
+  redis (~> 4.0)
+  rspec-rails (~> 6.0.0)
+  rubocop (>= 1.0, < 2.0)
+  ruby-lsp (~> 0.3.5)
+  selenium-webdriver
+  shoulda-matchers
+  sprockets-rails
+  sqlite3 (~> 1.4)
+>>>>>>> 751911f96d9dbdc962fecbf486de76502dd23317
   stimulus-rails
   turbo-rails
   tzinfo-data
@@ -319,4 +450,8 @@ RUBY VERSION
    ruby 3.1.2p20
 
 BUNDLED WITH
+<<<<<<< HEAD
    2.3.26
+=======
+   2.3.22
+>>>>>>> 751911f96d9dbdc962fecbf486de76502dd23317
