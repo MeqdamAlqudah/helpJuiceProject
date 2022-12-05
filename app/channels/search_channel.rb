@@ -4,10 +4,7 @@ class SearchChannel < ApplicationCable::Channel
     perform
   end
 
-  def unsubscribed
-    # Any cleanup needed when channel is unsubscribed
-    stop_all_streams
-  end
+  def unsubscribed; end
 
   private
 
