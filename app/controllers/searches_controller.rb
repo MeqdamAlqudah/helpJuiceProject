@@ -2,7 +2,6 @@ class SearchesController < ApplicationController
   def index
     @search_text = most_search_items
     @search_text = search_for_data if @search_text.empty?
-    render :index
   end
 
   def create
@@ -10,13 +9,13 @@ class SearchesController < ApplicationController
     if exist_search
       exist_search.update(search_count: exist_search.search_count + 1)
       @search_text = search_for_data(exist_search.search_text || 'a')
-      render :index
+      redirect_to searches_path
 
     else
       search = Search.new(search_param)
       @search_text = search_for_data(search.search_text || 'a')
       if iff(search)
-        render :index
+        redirect_to searches_path
       else
         render json: search.errors.full_messages
       end
