@@ -9,12 +9,12 @@ module SearchesHelper
     end[searched_items.length - 3, searched_items.length - 1]
   end
 
-  def is_valid_img(url)
+  def valid_img(url)
     if url
       begin
         RestClient.get(url)
       rescue StandardError => e
-        return 'https://picsum.photos/536/354'
+        return 'https://picsum.photos/536/354', e
       end
       url
     else

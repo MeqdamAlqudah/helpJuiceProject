@@ -13,6 +13,5 @@ consumer.subscriptions.create("SearchChannel", {
     // Called when there's incoming data on the websocket for this channel
     const search = document.querySelector("#searches")
     search.innerHTML = data.html
-    console.log(data)
   }
 });

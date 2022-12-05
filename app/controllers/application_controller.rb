@@ -3,7 +3,7 @@ class ApplicationController < ActionController::Base
     url = "https://newsapi.org/v2/everything?q=\"#{item}\"&apiKey=e172dc71056c4c6b99c8237d71458a40"
     begin
       JSON.parse(RestClient.get(url).body)['articles']
-    rescue RestClient::TooManyRequests => e
+    rescue RestClient::TooManyRequests
       []
     end
   end

@@ -50,12 +50,11 @@ gem 'bootsnap', require: false
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
+  gem 'action-cable-testing'
+  gem 'database_cleaner-active_record'
   gem 'debug', platforms: %i[mri mingw x64_mingw]
-   gem 'action-cable-testing'
-     gem 'rspec-rails', '~> 6.0.0'
-     gem 'factory_bot_rails'
- gem 'database_cleaner-active_record'
-
+  gem 'factory_bot_rails'
+  gem 'rspec-rails', '~> 6.0.0'
 end
 
 group :development do
@@ -72,11 +71,11 @@ end
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem 'capybara'
+  gem 'rspec-activemodel-mocks'
   gem 'selenium-webdriver'
-   gem 'shoulda-matchers'
-   gem 'rspec-activemodel-mocks'
+  gem 'shoulda-matchers'
   gem 'webdrivers'
 end
 gem 'bootstrap-sass'
+gem 'rest-client'
 gem 'rubocop', '>= 1.0', '< 2.0'
-gem "rest-client"

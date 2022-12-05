@@ -1,12 +1,8 @@
 class SearchesController < ApplicationController
   def index
     @search_text = most_search_items
-    if @search_text.empty?
-      @search_text = search_for_data
-      render :index
-    else
-      render :index
-    end
+    @search_text = search_for_data if @search_text.empty?
+    render :index
   end
 
   def create
@@ -19,9 +15,7 @@ class SearchesController < ApplicationController
     else
       search = Search.new(search_param)
       @search_text = search_for_data(search.search_text || 'a')
-      if include_in_other_search_text(search)
-        render :index
-      elsif search.save
+      if iff(search)
         render :index
       else
         render json: search.errors.full_messages
@@ -62,5 +56,12 @@ class SearchesController < ApplicationController
       end
     end
     false
+  end
+
+  def iff(search)
+    return 'included' if include_in_other_search_text(search)
+
+    search.save
+    'saved'
   end
 end
