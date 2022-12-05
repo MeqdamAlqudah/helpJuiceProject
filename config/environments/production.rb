@@ -69,7 +69,7 @@ Rails.application.configure do
   config.public_file_server.enabled = false
   config.assets.compile = true
   config.assets.quiet = true
-  RAILS_ENV=production rake assets:precompile
+  RAILS_ENV=production rake assets:precompiled_assets
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
