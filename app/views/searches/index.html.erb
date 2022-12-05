@@ -1,0 +1,12 @@
+<h1>Users search for</h1>
+<%= form_with url: "/searches", method: :post, data: { turbo: false,remote:true} do |form| %>
+  <%= form.text_field :search_text ,id:"searchInputBox"%>
+  <%= form.button "search" %>
+<% end %>
+
+<ul id="searches">
+
+</ul>
+<ul>
+<%= render partial: "shared/result", locals: {search: @search_text} %>
+</ul>
