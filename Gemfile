@@ -29,10 +29,6 @@ gem 'jbuilder'
 
 # Use Redis adapter to run Action Cable in production
 gem 'redis', '~> 4.0'
-<<<<<<< HEAD
-
-=======
->>>>>>> 751911f96d9dbdc962fecbf486de76502dd23317
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
@@ -52,20 +48,11 @@ gem 'bootsnap', require: false
 # gem "image_processing", "~> 1.2"
 
 group :development, :test do
-<<<<<<< HEAD
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem 'action-cable-testing'
   gem 'database_cleaner-active_record'
   gem 'debug', platforms: %i[mri mingw x64_mingw]
   gem 'factory_bot_rails'
-=======
-  gem 'database_cleaner-active_record'
-
-  # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
-  gem 'debug', platforms: %i[mri mingw x64_mingw]
-  gem 'factory_bot_rails'
-
->>>>>>> 751911f96d9dbdc962fecbf486de76502dd23317
   gem 'rspec-rails', '~> 6.0.0'
 end
 
@@ -83,21 +70,11 @@ end
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem 'capybara'
-<<<<<<< HEAD
   gem 'rspec-activemodel-mocks'
-=======
->>>>>>> 751911f96d9dbdc962fecbf486de76502dd23317
   gem 'selenium-webdriver'
   gem 'shoulda-matchers'
   gem 'webdrivers'
 end
-<<<<<<< HEAD
 gem 'bootstrap-sass'
 gem 'rest-client'
 gem 'rubocop', '>= 1.0', '< 2.0'
-=======
-gem 'cancancan'
-
-gem 'rails-controller-testing'
-gem 'ruby-lsp', '~> 0.3.5', group: :development
->>>>>>> 751911f96d9dbdc962fecbf486de76502dd23317
