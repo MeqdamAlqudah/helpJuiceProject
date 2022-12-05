@@ -1,6 +1,4 @@
 # Helpjuice Search book challenge
-![screenshot](./Capture.png)
-![screenshot](./Capture1.png)
 
 
 
