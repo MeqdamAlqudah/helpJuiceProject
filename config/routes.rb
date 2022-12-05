@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   root 'searches#index'
   resources :searches ,only: [:index,:create]
+  mount ActionCable.server => "/cable"
 end
