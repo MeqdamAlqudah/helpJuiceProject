@@ -38,7 +38,7 @@ class SearchesController < ApplicationController
       searched_items = [*searched_items, *search_for_data(item.search_text)]
     end
 
-    searched_items
+    searched_items.reverse
   end
 
   def include_in_other_search_text(item)
